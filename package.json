@@ -10,8 +10,10 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "codeceptjs": "^3.3.0",
     "react": "17.0.2",
-    "react-native": "0.67.2"
+    "react-native": "0.67.2",
+    "webdriverio": "^7.16.14"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
