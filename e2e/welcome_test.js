@@ -1,5 +1,5 @@
 Feature('welcome');
 
-Scenario('test something', ({ I }) => {
+Scenario('welcome screen', ({ I }) => {
     I.see('Welcome'); 
 });

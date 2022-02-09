@@ -12,9 +12,9 @@ exports.config = {
   output: './output',
   helpers: {
     Appium: {
-      app: 'android\\app\\build\\outputs\\apk\\debug\\app-debug.apk',
+      app: 'android\\app\\build\\outputs\\apk\\release\\app-release.apk',
       platform: 'Android',
-      device: 'emulator'
+      device: 'emulator',
     }
   },
   include: {
